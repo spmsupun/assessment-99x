@@ -21,7 +21,7 @@ Step 4
 
 Create Database : `php bin/console doctrine:database:create`
 
-Step 5
+St****ep 5
 
 Create Schema: `php bin/console doctrine:schema:update --force`
 
@@ -36,3 +36,10 @@ Run the application: `php bin/console server:start`
 **Test**
 
 `./vendor/bin/simple-phpunit`
+
+
+**Note:**
+* Coupon stored in coupon table.
+* "10% discount for children" stored in category table.
+* Recommended environment is linux(Ubuntu)
+* Since there are no any user registration, cart's books store using a unique id. when user close the browser, cart item will be lose.
