@@ -17,7 +17,7 @@ ShoppingCartBundle\Entity\Category:
         discount: 10
         discount_book_count: 5
 ShoppingCartBundle\Entity\Coupon:
-    character{1..100}:
+    coupon1{1..100}:
         coupon: <bothify('?##??')>
         discount: <numberBetween(5, 80)>
         expire_date: <dateTime('now')>
