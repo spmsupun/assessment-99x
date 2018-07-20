@@ -8,5 +8,16 @@ ShoppingCartBundle\Entity\Books:
 ShoppingCartBundle\Entity\Category:
     book_type_fiction:
         name: Fiction
+        description: <realText()>
+        discount: 0
+        discount_book_count: 0
     book_type_children:
         name: Children
+        description: <realText()>
+        discount: 10
+        discount_book_count: 5
+ShoppingCartBundle\Entity\Coupon:
+    character{1..100}:
+        coupon: <bothify('?##??')>
+        discount: <numberBetween(5, 80)>
+        expire_date: <dateTime('now')>
