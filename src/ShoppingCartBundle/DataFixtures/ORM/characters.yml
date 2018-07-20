@@ -1,0 +1,12 @@
+ShoppingCartBundle\Entity\Books:
+    character{1..100}:
+        category: "@book_type_*"
+        description: <realText()>
+        name: <sentence(4, true)>
+        price: <randomFloat(2, 20, 200)>
+        sold_count: <numberBetween(50, 500)>
+ShoppingCartBundle\Entity\Category:
+    book_type_fiction:
+        name: Fiction
+    book_type_children:
+        name: Children

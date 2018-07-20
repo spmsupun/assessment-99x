@@ -1,0 +1,162 @@
+/* line 3, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top {
+  clear: both;
+  position: relative;
+  top: 30px;
+}
+/* line 7, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu {
+  position: relative;
+}
+/* line 9, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li {
+  position: static;
+}
+/* line 11, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li > ul {
+  width: 100%;
+  top: 60px;
+  margin: 0 20px;
+}
+/* line 15, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li > ul > li {
+  display: block;
+  float: left;
+  width: 20%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+/* line 24, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li > ul > .category_thumb {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 29, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li > ul > .category_thumb img {
+  display: inline-block;
+  width: 33%;
+}
+/* line 36, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li h4 a {
+  font-size: 1.1em;
+}
+/* line 38, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li h4 a:before {
+  display: none;
+}
+/* line 43, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu > li .main-level-submenus {
+  position: relative;
+  display: block !important;
+  visibility: visible !important;
+  top: 0;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  left: 0;
+}
+/* line 54, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_top .sf-menu .category_thumb {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  /* line 61, ../../../sass/modules/blockcategories/blockcategories.scss */
+  #categories_block_left h2 {
+    font-size: 15px;
+  }
+}
+/* line 65, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left .block_content > ul {
+  border-top: 1px solid #f4f4f4;
+  padding-top: 11px;
+}
+/* line 69, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li {
+  position: relative;
+}
+/* line 71, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li a {
+  font-weight: bold;
+  color: #333333;
+  display: block;
+  font: 400 14px/31px "Cabin", sans-serif;
+  padding: 0 30px 0 13px;
+  background: #f4f4f4;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  -webkit-transition: background 0.4s ease-in;
+  -moz-transition: background 0.4s ease-in;
+  -ms-transition: background 0.4s ease-in;
+  -o-transition: background 0.4s ease-in;
+  transition: background 0.4s ease-in;
+}
+@media (max-width: 1200px) {
+  /* line 71, ../../../sass/modules/blockcategories/blockcategories.scss */
+  #categories_block_left li a {
+    font: 400 12px/30px "Cabin", sans-serif;
+  }
+}
+/* line 90, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li span.grower {
+  display: block;
+  background: #d1d1d1;
+  position: absolute;
+  right: 6px;
+  top: 7px;
+  cursor: pointer;
+  font-family: "FontAwesome";
+  font-size: 11px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  /* line 90, ../../../sass/modules/blockcategories/blockcategories.scss */
+  #categories_block_left li span.grower {
+    right: 5px;
+    top: 5px;
+  }
+}
+/* line 106, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li span.grower.OPEN:before, #categories_block_left li span.grower.CLOSE:before {
+  content: "\f068";
+  display: block;
+  vertical-align: middle;
+  width: 17px;
+  height: 17px;
+  padding-left: 1px;
+  color: #ffffff;
+  line-height: 17px;
+  text-align: center;
+}
+/* line 118, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li span.grower.CLOSE:before {
+  content: "\f067";
+  color: #ffffff;
+}
+/* line 125, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li span.grower:hover + a,
+#categories_block_left li a:hover,
+#categories_block_left li a.selected {
+  background: #e8e7e7;
+  -webkit-transition: background 0.4s ease-out;
+  -moz-transition: background 0.4s ease-out;
+  -ms-transition: background 0.4s ease-out;
+  -o-transition: background 0.4s ease-out;
+  transition: background 0.4s ease-out;
+}
+/* line 134, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li li a {
+  font-weight: normal;
+  color: #777777;
+}
+/* line 137, ../../../sass/modules/blockcategories/blockcategories.scss */
+#categories_block_left li li a:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  line-height: 29px;
+  padding-right: 8px;
+}

@@ -1,0 +1,122 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+/* line 7, ../sass/category.scss */
+.content_scene_cat {
+  border-bottom: 1px solid #dedede;
+  color: #777777;
+  line-height: 19px;
+  margin: 0 0 26px 0;
+  padding: 0 0 20px 0;
+}
+/* line 13, ../sass/category.scss */
+.content_scene_cat .content_scene_cat_bg {
+  padding: 0px 130px 10px 0px;
+}
+@media (max-width: 1199px) {
+  /* line 13, ../sass/category.scss */
+  .content_scene_cat .content_scene_cat_bg {
+    padding: 0px 130px 10px 0px;
+  }
+}
+/* line 19, ../sass/category.scss */
+.content_scene_cat span.category-name {
+  font: 500 32px/41px "Cabin", sans-serif;
+  color: #333333;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+@media (max-width: 1199px) {
+  /* line 19, ../sass/category.scss */
+  .content_scene_cat span.category-name {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+/* line 29, ../sass/category.scss */
+.content_scene_cat p {
+  margin-bottom: 0;
+}
+/* line 32, ../sass/category.scss */
+.content_scene_cat a {
+  color: #606060;
+}
+/* line 34, ../sass/category.scss */
+.content_scene_cat a:hover {
+  text-decoration: underline;
+}
+/* line 38, ../sass/category.scss */
+.content_scene_cat .content_scene {
+  color: #777777;
+}
+/* line 40, ../sass/category.scss */
+.content_scene_cat .content_scene .cat_desc {
+  padding-top: 20px;
+}
+/* line 42, ../sass/category.scss */
+.content_scene_cat .content_scene .cat_desc a {
+  color: #606060;
+}
+/* line 44, ../sass/category.scss */
+.content_scene_cat .content_scene .cat_desc a:hover {
+  color: #333333;
+}
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+/* line 56, ../sass/category.scss */
+#subcategories {
+  border-top: 1px solid #f4f4f4;
+  padding: 15px 0 0px 0;
+}
+/* line 59, ../sass/category.scss */
+#subcategories p.subcategory-heading {
+  font-weight: bold;
+  color: #333333;
+  margin: 0 0 15px 0;
+}
+/* line 64, ../sass/category.scss */
+#subcategories ul {
+  margin: 0 0 0 -20px;
+}
+/* line 66, ../sass/category.scss */
+#subcategories ul li {
+  float: left;
+  width: 128px;
+  margin: 0 0 13px 20px;
+  text-align: center;
+}
+/* line 71, ../sass/category.scss */
+#subcategories ul li .subcategory-image {
+  padding: 0 0 8px 0;
+}
+/* line 73, ../sass/category.scss */
+#subcategories ul li .subcategory-image a {
+  display: block;
+  padding: 9px;
+  border: 1px solid #f4f4f4;
+}
+/* line 77, ../sass/category.scss */
+#subcategories ul li .subcategory-image a img {
+  max-width: 100%;
+  vertical-align: top;
+}
+/* line 83, ../sass/category.scss */
+#subcategories ul li .subcategory-name {
+  font: 400 14px/20px "Cabin", sans-serif;
+  color: #1e1e1e;
+}
+/* line 86, ../sass/category.scss */
+#subcategories ul li .subcategory-name:hover {
+  color: #333333;
+}
+/* line 90, ../sass/category.scss */
+#subcategories ul li .cat_desc {
+  display: none;
+}
+/* line 95, ../sass/category.scss */
+#subcategories ul li:hover .subcategory-image a {
+  border: 5px solid #333333;
+  padding: 5px;
+}
