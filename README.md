@@ -32,3 +32,7 @@ Feed the database `php bin/console doctrine:fixtures:load`
 Step 7
 
 Run the application: `php bin/console server:start`
+
+**Test**
+
+`./vendor/bin/simple-phpunit`
