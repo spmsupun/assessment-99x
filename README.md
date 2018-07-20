@@ -21,7 +21,7 @@ Step 4
 
 Create Database : `php bin/console doctrine:database:create`
 
-St****ep 5
+Step 5
 
 Create Schema: `php bin/console doctrine:schema:update --force`
 
